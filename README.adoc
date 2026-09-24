@@ -1,0 +1,98 @@
+= kjun1
+
+Engineer interested in building systems that make software, knowledge, and operations easier to understand, automate, and verify.
+
+I work across AI/ML, developer tooling, infrastructure, and documentation.
+I care about explicit responsibilities, interfaces, traceability, reproducible execution, and keeping implementation decisions connected to their purpose.
+
+== Current focus
+
+* *AI-assisted software engineering* — tool use, agent workflows, evaluation, and human control.
+* *Knowledge systems* — RAG, structured extraction, knowledge representation, and links between documents and code.
+* *Developer and platform tooling* — reproducible environments, pipelines, infrastructure, and automation.
+* *Documentation as an engineering artifact* — structured documents that can be maintained, checked, rendered, and connected to implementation.
+* *Data and machine learning* — especially where modeling, evaluation, and system design meet.
+
+== Selected work
+
+=== link:https://github.com/kjun1/mahjong-render[mahjong-render]
+
+A Ruby gem that turns compact riichi mahjong notation into self-contained SVG.
+
+It also provides an optional Asciidoctor block macro, so mahjong hands can be embedded directly in AsciiDoc documents without a browser, Node.js, fonts, or a network rendering service.
+
+`notation -> parser -> tile sequence -> SVG`
+
+The project is intentionally small, offline-capable, documented, tested, and published as a reusable library.
+
+=== link:https://github.com/kjun1/task-management[task-management]
+
+Documentation and experiments around structuring task-management concepts, implementation guidance, and operational knowledge as a maintained documentation site.
+
+== How I tend to design systems
+
+I usually start from the system boundary rather than from a specific framework or product.
+
+* define the *purpose* and the observable output;
+* make *inputs, outputs, state, responsibilities, and constraints* explicit;
+* keep interfaces narrow enough that components can change independently;
+* connect implementation decisions back to their requirements and rationale;
+* define how the result will be *verified*, not only how it will be produced;
+* automate repeatable work while keeping important decisions observable and reversible.
+
+This applies to code, infrastructure, data pipelines, documentation, and AI-assisted workflows.
+
+== Tech
+
+=== Languages and documents
+
+image:https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white[Python]
+image:https://img.shields.io/badge/-Ruby-CC342D?style=flat-square&logo=ruby&logoColor=white[Ruby]
+image:https://img.shields.io/badge/-Nix-5277C3?style=flat-square&logo=nixos&logoColor=white[Nix]
+image:https://img.shields.io/badge/-AsciiDoc-E40046?style=flat-square&logo=asciidoctor&logoColor=white[AsciiDoc]
+
+=== AI / Data
+
+image:https://img.shields.io/badge/-PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white[PyTorch]
+image:https://img.shields.io/badge/-Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white[Jupyter]
+
+=== Infrastructure and automation
+
+image:https://img.shields.io/badge/-Linux-FCC624?style=flat-square&logo=linux&logoColor=black[Linux]
+image:https://img.shields.io/badge/-NixOS-5277C3?style=flat-square&logo=nixos&logoColor=white[NixOS]
+image:https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white[Docker]
+image:https://img.shields.io/badge/-Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white[Kubernetes]
+image:https://img.shields.io/badge/-Terraform-844FBA?style=flat-square&logo=terraform&logoColor=white[Terraform]
+image:https://img.shields.io/badge/-Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white[Azure]
+image:https://img.shields.io/badge/-Google%20Cloud-4285F4?style=flat-square&logo=googlecloud&logoColor=white[Google Cloud]
+image:https://img.shields.io/badge/-AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white[AWS]
+image:https://img.shields.io/badge/-GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white[GitHub Actions]
+
+== Earlier experiments
+
+Some older repositories reflect my ML and speech-processing background.
+
+* link:https://github.com/kjun1/CMVC[CMVC] — research-model implementation and experimentation.
+* link:https://github.com/kjun1/splitternet[splitternet] — speech / neural-network experiments and notebooks.
+
+They are kept primarily as development and research artifacts rather than as current maintained libraries.
+
+== GitHub
+
+image::https://github-readme-stats-fast.vercel.app/api/top-langs/?username=kjun1&layout=compact&hide=html&theme=vue-dark&card_width=304[Top languages]
+
+image::https://github-readme-stats-fast.vercel.app/api?username=kjun1&show_icons=true&theme=vue-dark&hide_rank=true[GitHub stats]
+
+== Misc
+
+[%collapsible]
+====
+Things I keep coming back to:
+
+* mahjong and game systems;
+* speech, audio, and language;
+* generative models and creative tooling;
+* reproducible Linux environments;
+* documentation formats and tooling;
+* small experiments that can be turned into reusable systems.
+====

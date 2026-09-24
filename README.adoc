@@ -75,7 +75,9 @@ They are retained as historical research and development artifacts rather than c
 
 == GitHub
 
-image::https://github-readme-stats-fast.vercel.app/api/top-langs/?username=kjun1&layout=compact&hide=html&theme=vue-dark&card_width=304[Top languages]
+NOTE: Jupyter Notebook is excluded from the language card below because saved notebook outputs dominate the byte-based totals.
+
+image::https://github-readme-stats-fast.vercel.app/api/top-langs/?username=kjun1&layout=compact&hide=html,jupyter%20notebook&theme=vue-dark&card_width=304[Top languages]
 
 image::https://github-readme-stats-fast.vercel.app/api?username=kjun1&show_icons=true&theme=vue-dark&hide_rank=true[GitHub stats]
 

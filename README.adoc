@@ -25,10 +25,6 @@ It also provides an optional Asciidoctor block macro, so mahjong hands can be em
 
 The project is intentionally small, offline-capable, documented, tested, and published as a reusable library.
 
-=== link:https://github.com/kjun1/task-management[task-management]
-
-Documentation and experiments around structuring task-management concepts, implementation guidance, and operational knowledge as a maintained documentation site.
-
 == How I tend to design systems
 
 I usually start from the system boundary rather than from a specific framework or product.
@@ -68,14 +64,14 @@ image:https://img.shields.io/badge/-Google%20Cloud-4285F4?style=flat-square&logo
 image:https://img.shields.io/badge/-AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white[AWS]
 image:https://img.shields.io/badge/-GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white[GitHub Actions]
 
-== Earlier experiments
+== Research history
 
 Some older repositories reflect my ML and speech-processing background.
 
 * link:https://github.com/kjun1/CMVC[CMVC] — research-model implementation and experimentation.
 * link:https://github.com/kjun1/splitternet[splitternet] — speech / neural-network experiments and notebooks.
 
-They are kept primarily as development and research artifacts rather than as current maintained libraries.
+They are retained as historical research and development artifacts rather than current maintained libraries.
 
 == GitHub
 
